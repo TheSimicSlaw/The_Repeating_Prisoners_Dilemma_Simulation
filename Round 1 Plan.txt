@@ -1,0 +1,26 @@
+The Repeating Prisoner's Dilemma Round 1
+
+Initial Plan:
+
+Framework class that includes the functions:
+- runSimulation takes two Strategies and runs the simulation for a fixed number of rounds
+- plotSimulation takes a Simulation class and tracks the given Responses, being updated each round and then passed to the Strategies for them to submit their next moves
+- recordSimulation creates a file holding the results of a given simulation
+
+Strategy abstract class:
+- startNewSimulation makes the strategy create a new instance of a Simulation class and set that as the working simulation, then set round_num equal to zero
+- initialResponse gives the first cooperate/defect Response 
+- continuedRounds gives the opponent's Response from the previous round for the Strategy's tracked simulation to the Strategy and prompts it for a response
+
+Simulation class that includes the functions
+- constructor that takes a number of rounds
+- updateSimulation takes a pair of Responses and records them
+- contains: 
+  - 2 vectors of Responses
+  - int for numrounds
+
+enum Response { 
+  COOPERATE,
+  DEFECT
+};
+

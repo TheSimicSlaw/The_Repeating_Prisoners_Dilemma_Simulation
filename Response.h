@@ -1,0 +1,5 @@
+enum Response
+{
+  COOPERATE,
+  DEFECT
+};
