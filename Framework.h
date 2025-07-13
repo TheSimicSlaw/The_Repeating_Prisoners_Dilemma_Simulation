@@ -1,4 +1,5 @@
 #include "Response.h"
+#include "Strategy.h"
 
 class Framework
 {
@@ -7,5 +8,5 @@ private:
   void record_simulation();
 
 public:
-  void run_simulation(auto strategyone, auto strategytwo);
+  void run_simulation(Strategy strategyone, Strategy strategytwo);
 };

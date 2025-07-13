@@ -4,7 +4,7 @@ Initial Plan:
 
 Framework class that includes the functions:
 - runSimulation takes two Strategies and runs the simulation for a fixed number of rounds
-- plotSimulation takes a Simulation class and tracks the given Responses, being updated each round and then passed to the Strategies for them to submit their next moves
+- plotSimulation takes a Simulation class and tracks the given Responses, being updated each round
 - recordSimulation creates a file holding the results of a given simulation
 
 Strategy abstract class:
