@@ -3,12 +3,10 @@
 
 class Simulation
 {
-private:
+public:
   int numrounds;
   std::vector<Response> strategy1run;
   std::vector<Response> strategy2run;
-
-public:
   Simulation(int nrounds);
   void updateSimulation(Response strategy1response, Response strategy2response);
 };

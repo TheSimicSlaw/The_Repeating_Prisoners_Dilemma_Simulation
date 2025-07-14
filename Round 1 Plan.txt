@@ -4,7 +4,7 @@ Initial Plan:
 
 Framework class that includes the functions:
 - runSimulation takes two Strategies and runs the simulation for a fixed number of rounds
-- plotSimulation takes a Simulation class and tracks the given Responses, being updated each round
+- evaluateSimulation takes a Simulation class and calculates the number of points each side got
 - recordSimulation creates a file holding the results of a given simulation
 
 Strategy abstract class:
@@ -13,7 +13,7 @@ Strategy abstract class:
 - continuedRounds gives the opponent's Response from the previous round for the Strategy's tracked simulation to the Strategy and prompts it for a response
 
 Simulation class that includes the functions
-- constructor that takes a number of rounds
+- constructor that takes a number of rounds and sets the length of the vectors accordingly
 - updateSimulation takes a pair of Responses and records them
 - contains: 
   - 2 vectors of Responses

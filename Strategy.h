@@ -3,11 +3,12 @@
 class Strategy
 {
 private:
-  Simulation currentSimulation;
-  int roundNum = 0;
+  Simulation *currentSimulation;
+  int roundNum;
 
 public:
-  void StartNewSimulation();
-  Response initialResponse();
-  Response continuedResponse(Response opponentresponse);
+  Strategy();
+  void StartNewSimulation(int nrounds);
+  virtual Response initialResponse();
+  virtual Response continuedResponse(Response opponentresponse);
 };
