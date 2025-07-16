@@ -7,6 +7,5 @@ Simulation::Simulation(int nrounds)
 
 void Simulation::updateSimulation(Response strategy1response, Response strategy2response)
 {
-  strategy1run.push_back(strategy1response);
-  strategy2run.push_back(strategy2response);
+  run.push_back(std::pair<Response, Response>(strategy1response, strategy2response));
 }
