@@ -50,6 +50,9 @@
     "xtr1common": "cpp",
     "xutility": "cpp",
     "numeric": "cpp",
-    "strategyalwayscooperate": "cpp"
+    "strategyalwayscooperate": "cpp",
+    "fstream": "cpp",
+    "iomanip": "cpp",
+    "string": "cpp"
   }
 }
