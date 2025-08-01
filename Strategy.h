@@ -1,5 +1,6 @@
 #include "Simulation.h"
 #include <string>
+using std::string;
 
 class Strategy
 {
@@ -8,7 +9,7 @@ private:
   int roundNum;
 
 public:
-  std::string strategyName;
+  string strategyName;
   Strategy();
   void StartNewSimulation(int nrounds);
   virtual Response initialResponse();
