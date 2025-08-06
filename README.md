@@ -1,5 +1,5 @@
 # The_Repeating_Prisoners_Dilemma_Simulation
-An experiment based on Robert Axelrod's "tournament" about the Prisoner's Dilemma
+An experiment based on Robert Axelrod's "tournament" about the Prisoner's Dilemma.
 
 The goal of this experiment is to determine how different diplomatic strategies interact, which ones come out on top, and how these might apply to the real world.
 
@@ -29,3 +29,4 @@ My personal hypothesis is that the nice (doesn't defect first), retaliatory but 
 
 I intend to create a framework for Part 1 and create a few strategies (I shall at least include tit-for-tat, sample, always cooperate, random, Friedman, and Joss) and then open it up to other submissions. From this we can have a more in-depth study. 
 
+If you wish to learn more about the original Prisoner's Dilemma Tournament, I recommend reading https://axelrod.readthedocs.io/en/fix-documentation/reference/index.html. Alternatively, you can also watch this video https://youtube.com/watch?v=mScpHTIi-kM, which provides a sound overview of it.
